@@ -8,14 +8,14 @@ double quadrado(double n) /*Declaração da nossa function */
 }
 
 void main(){
+    double n,res;
+    do{
+        printf("Introduza um certo numero \n");  //LEITURA DO NUMERO
+        scanf("%lf",&n);
 
-    double n = 5;
-    double b = quadrado(n);
-    printf("resultado: %lf",b);
-
-
-
-
-
-
+        if(n!=0){
+            res = quadrado(n); //CALCULO
+            printf("resultado: %lf \n",res); //IMPRIME O RESULTADO
+        }
+    }while(n!=0);
 }
