@@ -1,10 +1,10 @@
 #include<stdio.h>
 
-int n_limite(char* tipo){
+int n_limite(){
 
     int n;
     do{
-        printf("Introduza o numero inteiro %s\n ",tipo);
+        printf("Introduza o numero inteiro \n ");
         scanf("%d",&n);
 
         if(n<100 || n>999)
@@ -19,11 +19,10 @@ int n_limite(char* tipo){
 
 void main(){
 
-  int x,X;
-  x=n_limite("min");
-  X=n_limite("max");
+  int x;
+  x=n_limite();
 
-  printf("Resultado: %d : %d",x,X);
+  printf("Resultado: %d",x);
 
 
 
