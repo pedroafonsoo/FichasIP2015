@@ -19,11 +19,4 @@ void main(){
     scanf("%d",&n);
     x=v_int_pos(n);
     printf("Resultado :%d",x);
-
-
-
-
-
-
-
 }
